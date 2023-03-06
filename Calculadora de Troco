@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+
+
+Var
+
+   preco, troco, dinheiro, total : real
+   quantidade : inteiro
+
+
+
+Inicio
+
+      escreval("Insira o preco, e a quantidade do produto desejado")
+      leia(preco)
+      leia(quantidade)
+      
+      total <- preco * quantidade
+
+      escreval("O total foi de", total:8:2, " Insira o seu pagamento ")
+      leia(dinheiro)
+      
+      troco <- (dinheiro - total)
+      escreval("O troco foi de", troco:8:2)
+      
+
+
+
+
+
+
+      
+      
+Fimalgoritmo
