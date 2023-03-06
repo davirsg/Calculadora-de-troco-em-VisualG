@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+
+
+Var
+
+   base, altura, perimetro, diagonal, area : real
+
+
+Inicio
+
+
+
+      escreval("Digite a base do retangulo")
+      leia(base)
+
+      escreval("Digite a altura do retangulo")
+      leia(altura)
+
+      area <- (base * altura)
+      perimetro <- ( base*2 + altura *2)
+      diagonal <- raizQ(exp(base, 2) + exp(altura, 2))
+
+      escreval("O valor da area é: ", area:8:4)
+      escreval("O valor do perimetro é: ", perimetro:8:4)
+      escreval("O valor da diagonal é: ", diagonal:8:4)
+
+
+
+
+      
+      
+Fimalgoritmo
